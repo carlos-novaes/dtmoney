@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Container } from './styles';
 import { api } from '../../services/api';
-import { format } from 'node:path';
 
 interface Transaction {
   id: number;
